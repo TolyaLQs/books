@@ -62,6 +62,16 @@ body .main_menu{
     outline: none;
     margin-right: 5px;
     border: none;
+
+}
+
+.search .search_svg a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
 }
 
 .users_alerts_login_logout{
