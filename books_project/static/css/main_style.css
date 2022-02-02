@@ -82,4 +82,17 @@ body .main_menu{
     margin-right: 30px;
 }
 
+body .all_books{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 95%;
+}
+
+.all_books p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
