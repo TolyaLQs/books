@@ -5,7 +5,7 @@ body{
     width: 100%;
 }
 
-.main_menu{
+body .main_menu{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -13,12 +13,29 @@ body{
     height: 50px;
 }
 
-.search{
+.main_menu .search{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 300px;
     height: 30px;
+}
+
+.search .search_svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 20px;
+}
+
+.search .search_svg input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 20px;
+    outline: none;
 }
 
 
