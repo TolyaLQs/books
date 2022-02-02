@@ -55,13 +55,13 @@ class Book(models.Model):
         return f'{self.name}'
 
     class Meta:
-        ordering = ['added', 'name']
+        ordering = ['name']
         verbose_name = 'Книга'
         verbose_name_plural = 'Книги'
 
 
 class BookComment(models.Model):
-    book_name = models.ForeignKey(Book, to_field='name', verbose_name='Название', on_delete=models.CASCADE)
+    book_name = models.ForeignKey(Book, to_field='id', verbose_name='Название', on_delete=models.CASCADE)
     author = models.ForeignKey(User, verbose_name='Автор', on_delete=models.CASCADE)
     text = models.TextField(verbose_name='Коментарий', blank=True, max_length=548)
     date_added = models.DateTimeField(verbose_name='Добавлен комментария', auto_now_add=True)
