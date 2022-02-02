@@ -3,7 +3,6 @@ body{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding: 0;
     margin: 0;
 }
 
@@ -71,7 +70,7 @@ body .main_menu{
     align-items: center;
     width: 20px;
     height: 20px;
-    padding-top: 2px;
+    padding-top: 1px;
 }
 
 .users_alerts_login_logout{
