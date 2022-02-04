@@ -1,10 +1,9 @@
-from django.urls import re_path
+from django.urls import re_path, path
 import mainapp.views as main
 
 app_name = 'mainapp'
 
 urlpatterns = [
-    re_path('$', main.index, name='index'),
     re_path('genres/$', main.genres, name='genres'),
     re_path('genre/(?P<genre>.*\s*)/$', main.genre, name='genre'),
     re_path('top/$', main.top, name='top'),

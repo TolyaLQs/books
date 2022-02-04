@@ -9,7 +9,7 @@
 <div class="main_menu">
     <div class="logo">
         <div class="logo_txt">
-            <a href="{% url 'mainapp:index' %}">
+            <a href="{% url 'index' %}">
                 Books
             </a>
         </div>
@@ -90,7 +90,7 @@
         <div class="arrow_still">
             <div class="arrow_txt">Популярное</div>
             <div class="arrow_txt">
-                <a href="#">
+                <a href="{% url 'mainapp:pop' %}">
                     <svg width="20px" height="20px"
                          viewBox="0 0 96 96">
                         <path d="M12,52h62.344L53.172,73.172c-1.562,1.562-1.562,4.094,0,5.656c1.562,1.562,4.095,1.562,5.657,0l28-28

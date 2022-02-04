@@ -24,7 +24,8 @@ def pop(request, top=None):
 
 
 def new(request):
-    return render(request, 'mainapp/top_gen_new_pop_pages.html')
+    context = {}
+    return render(request, 'mainapp/top_gen_new_pop_pages.html', context)
 
 
 def search(request, search=None):
