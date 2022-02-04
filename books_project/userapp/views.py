@@ -4,7 +4,6 @@ from django.urls import reverse
 from django.contrib.auth import authenticate, login, logout
 from userapp.forms import MyUserCreationForm, MyUserChangeForm, MyUserChangeAvatarForm
 from userapp.models import User, UserFriend
-from mainapp.models import UserGame
 from django.http import JsonResponse
 
 
