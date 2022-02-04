@@ -2,7 +2,7 @@ from django.shortcuts import render, HttpResponseRedirect
 from django.urls import reverse
 
 # Create your views here.
-from books_project.mainapp.models import Book
+from mainapp.models import Book
 
 
 def index(request):
