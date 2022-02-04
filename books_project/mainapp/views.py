@@ -19,6 +19,10 @@ def top(request, top=None):
     return render(request, 'mainapp/top_gen_new_pop_pages.html')
 
 
+def pop(request, top=None):
+    return render(request, 'mainapp/top_gen_new_pop_pages.html')
+
+
 def new(request):
     return render(request, 'mainapp/top_gen_new_pop_pages.html')
 
