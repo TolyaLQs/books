@@ -7,18 +7,26 @@ def index(request):
     return render(request, 'mainapp/main_page.html')
 
 
+def genres(request):
+    return render(request, 'mainapp/top_gen_new_pop_pages.html')
+
+
 def genre(request, genre=None):
-    pass
+    return render(request, 'mainapp/top_gen_new_pop_pages.html')
 
 
 def top(request, top=None):
-    pass
+    return render(request, 'mainapp/top_gen_new_pop_pages.html')
+
+
+def new(request):
+    return render(request, 'mainapp/top_gen_new_pop_pages.html')
 
 
 def search(request, search=None):
-    pass
+    return render(request, 'mainapp/search_page.html')
 
 
 def book(request, book=None):
-    pass
+    return render(request, 'mainapp/book_page.html')
 
