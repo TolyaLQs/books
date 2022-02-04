@@ -10,3 +10,15 @@ def index(request):
 def genre(request, genre=None):
     pass
 
+
+def top(request, top=None):
+    pass
+
+
+def search(request, search=None):
+    pass
+
+
+def book(request, book=None):
+    pass
+
